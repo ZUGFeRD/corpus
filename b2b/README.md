@@ -1,15 +1,11 @@
-# corpus
-Collection of real, sample and test elecronic invoices, usually ZUGFeRD, partly with artificial errors
-
 # Samples for Statutory German Domestic B2B E-Invoices
 
 As german businesses have to be able to accept/read/understand domestic B2B e-invoices as of January 1st, 2025
 ([the law](https://www.recht.bund.de/bgbl/1/2024/108/VO), in particular art. 23 on p. 23) and a bit of it's  
 [background]( https://medium.com/@jochen.staerk/why-and-how-germany-bans-b2b-paper-invoices-a4c7977f314a))
-and samples are nowhere in sight the b2b-Folder is an attempt to 
+and samples are nowhere in sight this is an attempt to 
 demonstrate how temporary, makeshift, inofficial samples 
 can be created based on a part of AWV's [ZUGFeRD Infopaket](https://www.ferd-net.de/ZUGFeRD-Download) using [Mustang](https://www.mustangproject.org/?mtm_campaign=b2bsamples) until someone feels responsible to release official samples. 
-
 
 ## Background
 
@@ -17,7 +13,6 @@ We need to parse invoices calculated according to the rules laid down in [EN1693
 According to [EN16931-1](https://www.beuth.de/en/standard/din-en-16931-1/314992770), we have to support the XML syntaxes CII and UBL.
 Additionally, according to a [letter](https://www.dstv.de/wp-content/uploads/2023/10/BMF_2023-0922192-R.pdf) of the BMF, we have to assume that we also have to be able to parse CII embedded into PDF/A files, i.e. Factur-X~ZUGFeRD.
 I.e., we create three directories, FX for Factur-X, CII and UBL.
-As a company you can decide which format to send but you will have to accept all three,
 
 ## 1. PDF
 Get the ZUGFeRD 2.2 samples by downloading the
@@ -57,10 +52,3 @@ Your Mustang Team\
 Jochen Stärk\
 Chief [Mustangproject.org](https://mustangproject.org/?mtm_campaign=b2bsamples) ZUGFeRD Amatuer\
 jstaerk[at]usegroup.de
-
-## Purpose
-These are basically test files for two categories of software: ZUGFeRD **readers** should understand the correct files and ZUGFeRD **validators** should (not report errors in the correct files and) additionally flag the errors in the incorrect files.
-
-## Additional links
-
-* [PDF/A attachment with flat array structure](https://web.archive.org/web/20170519002523/http://www.pdflib.com/fileadmin/pdflib/pcos-cookbook/pdf/zugferd_invoice.pdf)
