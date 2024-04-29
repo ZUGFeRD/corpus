@@ -6,7 +6,7 @@ Collection of real, sample and test elecronic invoices, usually ZUGFeRD, partly 
 As german businesses have to be able to accept/read/understand domestic B2B e-invoices as of January 1st, 2025
 ([the law](https://www.recht.bund.de/bgbl/1/2024/108/VO), in particular art. 23 on p. 23) and a bit of it's  
 [background]( https://medium.com/@jochen.staerk/why-and-how-germany-bans-b2b-paper-invoices-a4c7977f314a))
-and samples are nowhere in sight the b2b-Folder is an attempt to 
+and samples are nowhere in sight the [XML-Rechnung](https://github.com/ZUGFeRD/corpus/tree/master/XML-Rechnung)-Folder is an attempt to 
 demonstrate how temporary, makeshift, inofficial samples 
 can be created based on a part of AWV's [ZUGFeRD Infopaket](https://www.ferd-net.de/ZUGFeRD-Download) using [Mustang](https://www.mustangproject.org/?mtm_campaign=b2bsamples) until someone feels responsible to release official samples. 
 
