@@ -50,5 +50,5 @@ And don't forget to have fun.
 Kind regards,\
 Your Mustang Team\
 Jochen Stärk\
-Chief [Mustangproject.org](https://mustangproject.org/?mtm_campaign=b2bsamples) ZUGFeRD Amatuer\
+Chief [Mustangproject.org](https://mustangproject.org/?mtm_campaign=b2bsamples) ZUGFeRD Amateur\
 jstaerk[at]usegroup.de
