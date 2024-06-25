@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- from A10-Licenses.xlsx -->
+<p:FatturaElettronica
+        xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2"
+        xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        versione="FPA12">
+    <FatturaElettronicaHeader xmlns="">
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>DK</IdPaese>
+                <IdCodice>16356706</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>0001</ProgressivoInvio>
+            <FormatoTrasmissione>FPA12</FormatoTrasmissione>
+            <CodiceDestinatario>999999</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>DK</IdPaese>
+                    <IdCodice>16356706</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>SubscriptionSeller</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Main street 2, Building 4</Indirizzo>
+                <CAP>54321</CAP>
+                <Comune>Big city</Comune>
+                <Nazione>DK</Nazione>
+            </Sede>
+            <Contatti>
+                <Email>antonio@SubscriptionsSeller.dk</Email>
+            </Contatti>
+        </CedentePrestatore>
+
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>DK</IdPaese>
+                    <IdCodice>5790000435975</IdCodice>
+                </IdFiscaleIVA>            <Anagrafica>
+                <Denominazione>Buyercompany ltd</Denominazione>
+            </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Anystreet, Building 1</Indirizzo>
+                <CAP>00101</CAP>
+                <Comune>Anytown</Comune>
+                <Nazione>DK</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>DKK</Divisa>
+                <Data>2013-04-10</Data>
+                <Numero>TOSL108</Numero>
+                <ImportoTotaleDocumento>1125.00</ImportoTotaleDocumento>
+                <Causale>Esempio fattura trasformata da CEN a XML-PA </Causale>
+            </DatiGeneraliDocumento>
+            <DatiContratto>
+                <IdDocumento>SUBSCR571</IdDocumento>
+            </DatiContratto>
+        </DatiGenerali>
+
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>9999</NumeroLinea>
+                <TipoCessionePrestazione>SC</TipoCessionePrestazione>
+                <Descrizione>Sconto a livello di documento - Freight charge</Descrizione>
+                <PrezzoUnitario>100.00</PrezzoUnitario>
+                <PrezzoTotale>100.00</PrezzoTotale>
+                <AliquotaIVA>25.00</AliquotaIVA>
+            </DettaglioLinee>
+
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>Paper subscription - Subscription fee 1st quarter</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>Each</UnitaMisura>
+                <DataInizioPeriodo>2013-06-01</DataInizioPeriodo>
+                <DataFinePeriodo>2013-06-30</DataFinePeriodo>
+                <PrezzoUnitario>800.00</PrezzoUnitario>
+                <PrezzoTotale>800.00</PrezzoTotale>
+                <AliquotaIVA>25.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>BT-73</TipoDato>
+                    <RiferimentoTesto>1/Jan/2013</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>BT-74</TipoDato>
+                    <RiferimentoTesto>1/Apr/2013</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+
+            <DatiRiepilogo>
+                <AliquotaIVA>25.00</AliquotaIVA>
+                <ImponibileImporto>900.00</ImponibileImporto>
+                <Imposta>225.00</Imposta>
+            </DatiRiepilogo>
+
+        </DatiBeniServizi>
+
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+                <DataScadenzaPagamento>2013-05-10</DataScadenzaPagamento>
+                <ImportoPagamento>1125.00</ImportoPagamento>
+                <IBAN>DK1212341234123412</IBAN>
+                <CodicePagamento>Payref1</CodicePagamento>
+            </DettaglioPagamento>
+        </DatiPagamento>
+
+    </FatturaElettronicaBody>
+</p:FatturaElettronica>

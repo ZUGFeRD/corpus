@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      versione="FPA12"
+                      xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 ">
+    <FatturaElettronicaHeader xmlns="">
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>05159100964</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>1031</ProgressivoInvio>
+            <FormatoTrasmissione>FPA12</FormatoTrasmissione>
+            <CodiceDestinatario>INF000</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>07945211006</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>07945211006</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>AZIENDA TEST S.p.A.</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via Russoli 5</Indirizzo>
+                <CAP>20100</CAP>
+                <Comune>Milano</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+            <IscrizioneREA>
+                <Ufficio>MI</Ufficio>
+                <NumeroREA>123456</NumeroREA>
+                <CapitaleSociale>100000.99</CapitaleSociale>
+                <SocioUnico>SM</SocioUnico>
+                <StatoLiquidazione>LN</StatoLiquidazione>
+            </IscrizioneREA>
+            <Contatti>
+                <Telefono>021111.1</Telefono>
+                <Fax>021111.2</Fax>
+            </Contatti>
+        </CedentePrestatore>
+        <RappresentanteFiscale>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>12345</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Nome>Nome di Test</Nome>
+                    <Cognome>Cognome di Test</Cognome>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </RappresentanteFiscale>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <CodiceFiscale>00349040287</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>AZ.OSPED.PADOVA</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA PROVA INDIRIZZO</Indirizzo>
+                <CAP>35128</CAP>
+                <Comune>PADOVA</Comune>
+                <Provincia>PD</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody xmlns="">
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD04</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2012-01-04</Data>
+                <Numero>1-TEST</Numero>
+                <ImportoTotaleDocumento>100435.27</ImportoTotaleDocumento>
+                <Causale>
+                    STORNO NOTA DEBITO INTERESSI DI MORA N. XXXX DEL 06.07.2011 COME DA NS. TRANSAZIONE
+                </Causale>
+                <Causale>
+                    IMPOSTA DI BOLLO ASSOLTA IN MODO VIRTUALE AUT.AG.ENTRATE UFF.MILANO2 PROT. XXX/2006 - 2.00 EUR
+                </Causale>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>0010</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>CODICE FORNITORE</CodiceTipo>
+                    <CodiceValore>N/C INTERESSI MORA</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>N/C INTERESSI MORA</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PCE</UnitaMisura>
+                <PrezzoUnitario>100435.27</PrezzoUnitario>
+                <PrezzoTotale>100435.27</PrezzoTotale>
+                <AliquotaIVA>00.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>00.00</AliquotaIVA>
+                <Natura>N1</Natura>
+                <ImponibileImporto>100435.27</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+                <RiferimentoNormativo>
+                    ESCLUSO DA IVA - ART. 15 DPR 26/10/72 N. 633 E SUCC. MODIFICHE
+                </RiferimentoNormativo>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+                <DataScadenzaPagamento>2012-01-04</DataScadenzaPagamento>
+                <ImportoPagamento>100435.27</ImportoPagamento>
+                <IstitutoFinanziario>
+                    BANCA TEST AGENZIA DI TEST - 20100 MI
+                </IstitutoFinanziario>
+                <IBAN>IT99X0100000000000000001111</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+</p:FatturaElettronica>

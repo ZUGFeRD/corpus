@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nx:FatturaElettronica xmlns:nx="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" versione="FPA12">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>91252510374</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>1</ProgressivoInvio>
+            <FormatoTrasmissione>FPA12</FormatoTrasmissione>
+            <CodiceDestinatario>0L06J9</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02241740360</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>Azienda Ospedaliero-Universitaria di Modena</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via del Pozzo, 71</Indirizzo>
+                <CAP>41124</CAP>
+                <Comune>MODENA</Comune>
+                <Provincia>MO</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02483810392</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>AZ.UNITA SANI.LOCALE DELLA ROMAGNA</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA DE GASPARI N.8</Indirizzo>
+                <CAP>48121</CAP>
+                <Comune>RAVENNA</Comune>
+                <Provincia>RA</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>02792731206</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>91252510374</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>Intercent-ER, Agenzia regionale per lo sviluppo dei mercati telematici</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2017-01-09</Data>
+                <Numero>FAT01</Numero>
+                <DatiBollo>
+                    <BolloVirtuale>SI</BolloVirtuale>
+                    <ImportoBollo>2.00</ImportoBollo>
+                </DatiBollo>
+                <ImportoTotaleDocumento>1302.00</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>CONSULENZE SANITARIE VERSO ENTI PUBBLICI</Descrizione>
+                <Quantita>1.00000000</Quantita>
+                <UnitaMisura>unita'</UnitaMisura>
+                <PrezzoUnitario>1300.00000000</PrezzoUnitario>
+                <PrezzoTotale>1300.00000000</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N4</Natura>
+                <AltriDatiGestionali>
+                    <TipoDato>Natura</TipoDato>
+                    <RiferimentoTesto>E</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <Descrizione>BOLLO</Descrizione>
+                <Quantita>1.00000000</Quantita>
+                <UnitaMisura>unita'</UnitaMisura>
+                <PrezzoUnitario>2.00000000</PrezzoUnitario>
+                <PrezzoTotale>2.00000000</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+                <AltriDatiGestionali>
+                    <TipoDato>Natura</TipoDato>
+                    <RiferimentoTesto>O</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+                <ImponibileImporto>2.00</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <RiferimentoNormativo>FC ART.2 N.4-BOLLO</RiferimentoNormativo>
+            </DatiRiepilogo>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N4</Natura>
+                <ImponibileImporto>1300.00</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <RiferimentoNormativo>ESENTE ART.10 DPR 633/72</RiferimentoNormativo>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP15</ModalitaPagamento>
+                <ImportoPagamento>1302.00</ImportoPagamento>
+                <IstitutoFinanziario>UNICREDIT SPA</IstitutoFinanziario>
+                <IBAN>IT64W0100003245243300306301</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+</nx:FatturaElettronica>

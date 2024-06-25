@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- from A10-Licenses.xlsx -->
+<p:FatturaElettronica
+        xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2"
+        xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        versione="FPA12">
+    <FatturaElettronicaHeader xmlns="">
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>NL</IdPaese>
+                <IdCodice>809163160B01</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>0001</ProgressivoInvio>
+            <FormatoTrasmissione>FPA12</FormatoTrasmissione>
+            <CodiceDestinatario>999999</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>NL</IdPaese>
+                    <IdCodice>809163160B01</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>Bluem BV</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Lindeboomseweg 41</Indirizzo>
+                <CAP>99999</CAP>
+                <Comune>Amersfoort</Comune>
+                <Nazione>NL</Nazione>
+            </Sede>
+            <Contatti>
+                <Email>info@bluem.nl</Email>
+            </Contatti>
+        </CedentePrestatore>
+
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>NL</IdPaese>
+                    <IdCodice>5790000435975</IdCodice>
+                </IdFiscaleIVA>            <Anagrafica>
+                <Denominazione>Provide Verzekeringen</Denominazione>
+            </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Henry Dunantweg 42</Indirizzo>
+                <CAP>99999</CAP>
+                <Comune>Alphen aan den Rijn</Comune>
+                <Nazione>NL</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD04</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2015-04-14</Data>
+                <Numero>20150483</Numero>
+                <ImportoTotaleDocumento>177.87</ImportoTotaleDocumento>
+                <Causale>Esempio fattura trasformata da CEN a XML-PA</Causale>
+            </DatiGeneraliDocumento>
+            <DatiContratto>
+                <IdDocumento>iExpress 20110412</IdDocumento>
+            </DatiContratto>
+        </DatiGenerali>
+
+        <DatiBeniServizi>
+
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>IExpress licentiekosten</Descrizione>
+                <Quantita>3.00</Quantita>
+                <UnitaMisura>Month</UnitaMisura>
+                <DataInizioPeriodo>2016-04-01</DataInizioPeriodo>
+                <DataFinePeriodo>2016-06-30</DataFinePeriodo>
+                <PrezzoUnitario>49.00</PrezzoUnitario>
+                <PrezzoTotale>147.00</PrezzoTotale>
+                <AliquotaIVA>21.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>BT-73</TipoDato>
+                    <RiferimentoTesto>1/Jan/2013</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>Verbruiks</TipoDato>
+                    <RiferimentoTesto>Start</RiferimentoTesto>
+                </AltriDatiGestionali>
+
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>21.00</AliquotaIVA>
+                <ImponibileImporto>147.00</ImponibileImporto>
+                <Imposta>30.87</Imposta>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+                <DataScadenzaPagamento>2015-04-14</DataScadenzaPagamento>
+                <ImportoPagamento>177.87</ImportoPagamento>
+                <IBAN>NL13RABO0377815500</IBAN>
+                <BIC>RABONL2U</BIC>
+                <CodicePagamento>2015 0483 0000 0000</CodicePagamento>
+            </DettaglioPagamento>
+        </DatiPagamento>
+
+    </FatturaElettronicaBody>
+</p:FatturaElettronica>

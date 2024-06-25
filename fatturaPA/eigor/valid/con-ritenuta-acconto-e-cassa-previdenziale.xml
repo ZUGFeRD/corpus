@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fatturapa_v1.2.xsl"?>
+<p:FatturaElettronica versione="FPA12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>MCCCSN65C04A944T</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>37017</ProgressivoInvio>
+            <FormatoTrasmissione>FPA12</FormatoTrasmissione>
+            <CodiceDestinatario>78K5FY</CodiceDestinatario>
+            <ContattiTrasmittente>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01982821207</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>MCCCSN65C04A944T</CodiceFiscale>
+                <Anagrafica>
+                    <Nome>MARCO</Nome>
+                    <Cognome>ACCONTO</Cognome>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>via Senzanome 6</Indirizzo>
+                <CAP>40132</CAP>
+                <Comune>Bologna</Comune>
+                <Provincia>BO</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <CodiceFiscale>91252510374</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>Ufficio fatturazione elettronica - Intercent-ER</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>via dei Mille, 21</Indirizzo>
+                <CAP>40121</CAP>
+                <Comune>Bologna</Comune>
+                <Provincia>BO</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2017-05-01</Data>
+                <Numero>37 2017</Numero>
+                <DatiRitenuta>
+                    <TipoRitenuta>RT01</TipoRitenuta>
+                    <ImportoRitenuta>2800.00</ImportoRitenuta>
+                    <AliquotaRitenuta>20.00</AliquotaRitenuta>
+                    <CausalePagamento>A</CausalePagamento>
+                </DatiRitenuta>
+                <DatiCassaPrevidenziale>
+                    <TipoCassa>TC01</TipoCassa>
+                    <AlCassa>4.00</AlCassa>
+                    <ImportoContributoCassa>560.00</ImportoContributoCassa>
+                    <ImponibileCassa>14000.00</ImponibileCassa>
+                    <AliquotaIVA>22.00</AliquotaIVA>
+                </DatiCassaPrevidenziale>
+                <ImportoTotaleDocumento>17763.20</ImportoTotaleDocumento>
+                <Causale>TAR Bologna sentenza n.xxx del 2016 determina Intercenter 12345</Causale>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>corrispettivo</Descrizione>
+                <PrezzoUnitario>14000.00</PrezzoUnitario>
+                <PrezzoTotale>14000.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>14560.00</ImponibileImporto>
+                <Imposta>3203.20</Imposta>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <Beneficiario>Acconto Marco</Beneficiario>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <ImportoPagamento>14963.20</ImportoPagamento>
+                <IstitutoFinanziario>UNICREDIT</IstitutoFinanziario>
+                <IBAN>IT40G0638502416100000007771</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>

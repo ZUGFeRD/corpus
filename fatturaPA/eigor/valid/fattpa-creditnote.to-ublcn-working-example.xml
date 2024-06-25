@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:FatturaElettronica versione="FPA12" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>DK</IdPaese>
+                <IdCodice>12345</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>00001</ProgressivoInvio>
+            <FormatoTrasmissione>FPA12</FormatoTrasmissione>
+            <CodiceDestinatario>AAAAAA</CodiceDestinatario>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>DK</IdPaese>
+                    <IdCodice>12345</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>The Sellercompany Incorporated</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF18</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Main street Suite 123</Indirizzo>
+                <CAP>54321</CAP>
+                <Comune>Big city</Comune>
+                <Nazione>DK</Nazione>
+            </Sede>
+            <Contatti>
+                <Telefono>4621230</Telefono>
+                <Email>antonio@salescompany.dk</Email>
+            </Contatti>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>BE</IdPaese>
+                    <IdCodice>VAT:BE54321</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>The buyercompany inc.</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Anystreet</Indirizzo>
+                <CAP>10101</CAP>
+                <Comune>Anytown</Comune>
+                <Nazione>BE</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD04</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2009-12-15</Data>
+                <Numero>TOSL108</Numero>
+                <ImportoTotaleDocumento>1527.60</ImportoTotaleDocumento>
+                <Causale>Returns</Causale>
+            </DatiGeneraliDocumento>
+            <DatiOrdineAcquisto>
+                <IdDocumento>123</IdDocumento>
+            </DatiOrdineAcquisto>
+            <DatiContratto>
+                <IdDocumento>Contract321</IdDocumento>
+                <CodiceCUP>Doc1</CodiceCUP>
+            </DatiContratto>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Seller</CodiceTipo>
+                    <CodiceValore>JB007</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>Laptop computer</Descrizione>
+                <Quantita>1.00000000</Quantita>
+                <UnitaMisura>1.0 C62</UnitaMisura>
+                <PrezzoUnitario>1273.00</PrezzoUnitario>
+                <PrezzoTotale>1273.00</PrezzoTotale>
+                <AliquotaIVA>20.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>Color</TipoDato>
+                    <RiferimentoTesto>black</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>20.00</AliquotaIVA>
+                <ImponibileImporto>1273.00</ImponibileImporto>
+                <Imposta>254.60</Imposta>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <Beneficiario>Customer</Beneficiario>
+                <ModalitaPagamento>MP21</ModalitaPagamento>
+                <ImportoPagamento>-1273.00</ImportoPagamento>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>
