@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
-  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</cbc:CustomizationID>
   <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
   <cbc:ID>471102</cbc:ID>
-  <cbc:IssueDate>2018-03-05</cbc:IssueDate>
+  <cbc:IssueDate>2024-11-15</cbc:IssueDate>
   <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-  <cbc:Note>Rechnung gemäß Bestellung vom 01.03.2018.</cbc:Note>
+  <cbc:Note>Rechnung gemäß Bestellung vom 01.11.2024.</cbc:Note>
   <cbc:Note>#REG#Lieferant GmbH				
 Lieferantenstraße 20				
 80333 München				
@@ -17,12 +17,10 @@ Handelsregisternummer: H A 123
   <cbc:BuyerReference>04011000-12345-34</cbc:BuyerReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">info@Mustermann.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID schemeID="0088">4000001123452</cbc:ID>
       </cac:PartyIdentification>
-      <cac:PartyName>
-        <cbc:Name>Lieferant GmbH</cbc:Name>
-      </cac:PartyName>
       <cac:PostalAddress>
         <cbc:StreetName>Lieferantenstraße 20</cbc:StreetName>
         <cbc:CityName>München</cbc:CityName>
@@ -55,12 +53,10 @@ Handelsregisternummer: H A 123
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">info@kunde.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID>GE2020211</cbc:ID>
       </cac:PartyIdentification>
-      <cac:PartyName>
-        <cbc:Name>Kunden AG Mitte</cbc:Name>
-      </cac:PartyName>
       <cac:PostalAddress>
         <cbc:StreetName>Kundenstraße 15</cbc:StreetName>
         <cbc:CityName>Frankfurt</cbc:CityName>
@@ -75,7 +71,7 @@ Handelsregisternummer: H A 123
     </cac:Party>
   </cac:AccountingCustomerParty>
   <cac:Delivery>
-    <cbc:ActualDeliveryDate>2018-03-05</cbc:ActualDeliveryDate>
+    <cbc:ActualDeliveryDate>2024-11-14</cbc:ActualDeliveryDate>
   </cac:Delivery>
   <cac:PaymentMeans>
     <cbc:PaymentMeansCode name="Zahlung per SEPA Überweisung.">58</cbc:PaymentMeansCode>
@@ -88,7 +84,7 @@ Handelsregisternummer: H A 123
     </cac:PayeeFinancialAccount>
   </cac:PaymentMeans>
   <cac:PaymentTerms>
-    <cbc:Note>Zahlbar innerhalb 30 Tagen netto bis 04.04.2018, 3% Skonto innerhalb 10 Tagen bis 15.03.2018</cbc:Note>
+    <cbc:Note>Zahlbar innerhalb 30 Tagen netto bis 15.12.2024, 3% Skonto innerhalb 10 Tagen bis 25.11.2024</cbc:Note>
   </cac:PaymentTerms>
   <cac:TaxTotal>
     <cbc:TaxAmount currencyID="EUR">56.87</cbc:TaxAmount>
@@ -146,6 +142,11 @@ Handelsregisternummer: H A 123
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">9.9</cbc:PriceAmount>
+      <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+        <cbc:Amount currencyID="EUR">0</cbc:Amount>
+        <cbc:BaseAmount currencyID="EUR">9.9</cbc:BaseAmount>
+      </cac:AllowanceCharge>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
@@ -170,6 +171,11 @@ Handelsregisternummer: H A 123
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">5.5</cbc:PriceAmount>
+      <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+        <cbc:Amount currencyID="EUR">0</cbc:Amount>
+        <cbc:BaseAmount currencyID="EUR">5.5</cbc:BaseAmount>
+      </cac:AllowanceCharge>
     </cac:Price>
   </cac:InvoiceLine>
 </Invoice>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
-  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</cbc:CustomizationID>
   <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
   <cbc:ID>181301674</cbc:ID>
-  <cbc:IssueDate>2018-04-25</cbc:IssueDate>
+  <cbc:IssueDate>2024-11-15</cbc:IssueDate>
   <cbc:InvoiceTypeCode>877</cbc:InvoiceTypeCode>
-  <cbc:Note>Rapport-Nr.: 42389 vom 08.03.2018
+  <cbc:Note>Rapport-Nr.: 42389 vom 01.11.2024
 
 Im 2. OG BT1 Besprechungsraum eine Beamerhalterung an die Decke montiert. Dafür eine Deckenplatte ausgesägt. Beamerhalterung zur Montage auseinander gebaut. Ein Stromkabel für den Beamer, ein HDMI Kabel und ein VGA Kabel durch die Halterung gezogen. Beamerhalterung wieder zusammengebaut und Beamer montiert. Beamer verkabelt und ausgerichtet. Decke geschlossen.</cbc:Note>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
@@ -13,7 +13,7 @@ Im 2. OG BT1 Besprechungsraum eine Beamerhalterung an die Decke montiert. Dafür
   <cbc:BuyerReference>04011000-12345-34</cbc:BuyerReference>
   <cac:OrderReference>
     <cbc:ID></cbc:ID>
-    <cbc:SalesOrderID>per Mail vom 19.02.2018</cbc:SalesOrderID>
+    <cbc:SalesOrderID>per Mail vom 01.10.2024</cbc:SalesOrderID>
   </cac:OrderReference>
   <cac:AdditionalDocumentReference>
     <cbc:ID>Aufmass</cbc:ID>
@@ -34,12 +34,10 @@ Im 2. OG BT1 Besprechungsraum eine Beamerhalterung an die Decke montiert. Dafür
   </cac:ProjectReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">info@Mustermann.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID schemeID="0088">4000001123452</cbc:ID>
       </cac:PartyIdentification>
-      <cac:PartyName>
-        <cbc:Name>ELEKTRON Industrieservice GmbH</cbc:Name>
-      </cac:PartyName>
       <cac:PostalAddress>
         <cbc:StreetName>Erfurter Strasse 13</cbc:StreetName>
         <cbc:CityName>Demoort</cbc:CityName>
@@ -74,12 +72,10 @@ Amtsgericht Stuttgart HRB 1234</cbc:CompanyLegalForm>
   </cac:AccountingSupplierParty>
   <cac:AccountingCustomerParty>
     <cac:Party>
+      <cbc:EndpointID schemeID="EM">info@kunde.de</cbc:EndpointID>
       <cac:PartyIdentification>
         <cbc:ID>16259</cbc:ID>
       </cac:PartyIdentification>
-      <cac:PartyName>
-        <cbc:Name>ConsultingService GmbH</cbc:Name>
-      </cac:PartyName>
       <cac:PostalAddress>
         <cbc:StreetName>Musterstr. 18</cbc:StreetName>
         <cbc:CityName>Karlsruhe</cbc:CityName>
@@ -94,7 +90,7 @@ Amtsgericht Stuttgart HRB 1234</cbc:CompanyLegalForm>
     </cac:Party>
   </cac:AccountingCustomerParty>
   <cac:Delivery>
-    <cbc:ActualDeliveryDate>2018-03-06</cbc:ActualDeliveryDate>
+    <cbc:ActualDeliveryDate>2024-11-01</cbc:ActualDeliveryDate>
   </cac:Delivery>
   <cac:PaymentMeans>
     <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
@@ -147,6 +143,11 @@ Für die doppelte Verlegung, falls erforderlich.</cbc:Note>
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">43.2</cbc:PriceAmount>
+      <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+        <cbc:Amount currencyID="EUR">0</cbc:Amount>
+        <cbc:BaseAmount currencyID="EUR">43.2</cbc:BaseAmount>
+      </cac:AllowanceCharge>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
@@ -166,6 +167,11 @@ Für die doppelte Verlegung, falls erforderlich.</cbc:Note>
     </cac:Item>
     <cac:Price>
       <cbc:PriceAmount currencyID="EUR">122.5</cbc:PriceAmount>
+      <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+        <cbc:Amount currencyID="EUR">0</cbc:Amount>
+        <cbc:BaseAmount currencyID="EUR">122.5</cbc:BaseAmount>
+      </cac:AllowanceCharge>
     </cac:Price>
   </cac:InvoiceLine>
 </Invoice>

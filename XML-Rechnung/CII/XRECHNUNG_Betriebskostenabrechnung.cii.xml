@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!-- English disclaimer below.-->
 <!--Nutzungsrechte 
-ZUGFeRD Datenformat Version 2.2.0, 14.02.2022
-Beispiel Version 14.02.2022
+ZUGFeRD Datenformat Version 2.3.0, 18.09.2024
+Beispiel Version 18.09.2024
  
 Zweck des Forums elektronisch Rechnung Deutschland, welches am 31. März 2010 unter der Arbeitsgemeinschaft für 
 wirtschaftliche Verwaltung e. V. gegründet wurde, ist u. a. die Schaffung und Spezifizierung eines offenen Datenformats 
@@ -44,7 +44,7 @@ beiläufig entstandene, mittelbare Schäden, Straf- oder Folgeschäden und zwar 
 Kosten, Verluste bzw. Schäden hätte normalerweise vorhergesehen werden können.-->
  
  <!--Right of use 
-ZUGFeRD Data format version 2.2.0, February 14th, 2022
+ZUGFeRD Data format version 2.3.0, September 18th, 2024
  
 The purpose of the Forum elektronische Rechnung Deutschland (FeRD), which was founded on March 31, 2010 under the 
 umbrella of Arbeitsgemeinschaft für wirtschaftliche Verwaltung e. V., is, among other things, to create and specify an 
@@ -87,18 +87,21 @@ costs, losses or damages could normally have been foreseen.-->
 
 <rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
   <rsm:ExchangedDocumentContext>
+	<ram:BusinessProcessSpecifiedDocumentContextParameter>
+		<ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+	</ram:BusinessProcessSpecifiedDocumentContextParameter>
     <ram:GuidelineSpecifiedDocumentContextParameter>
-      <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.1</ram:ID>
+      <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</ram:ID>
     </ram:GuidelineSpecifiedDocumentContextParameter>
   </rsm:ExchangedDocumentContext>
   <rsm:ExchangedDocument>
     <ram:ID>471102</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
-      <udt:DateTimeString format="102">20180305</udt:DateTimeString>
+      <udt:DateTimeString format="102">20241115</udt:DateTimeString>
     </ram:IssueDateTime>
     <ram:IncludedNote>
-      <ram:Content>Rechnung gemäß Betriebskostenrechnung vom 21.11.2011.</ram:Content>
+      <ram:Content>Rechnung gemäß Betriebskostenrechnung vom 01.11.2024.</ram:Content>
     </ram:IncludedNote>
     <ram:IncludedNote>
       <ram:Content>Grundbesitz GmbH &amp; Co. 		
@@ -160,6 +163,9 @@ costs, losses or damages could normally have been foreseen.-->
           <ram:CityName>Frankfurt</ram:CityName>
           <ram:CountryID>DE</ram:CountryID>
         </ram:PostalTradeAddress>
+		<ram:URIUniversalCommunication>
+			<ram:URIID schemeID="EM">info@Mustermann.de</ram:URIID>
+		</ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
           <ram:ID schemeID="FC">201/113/40209</ram:ID>
         </ram:SpecifiedTaxRegistration>
@@ -175,6 +181,9 @@ costs, losses or damages could normally have been foreseen.-->
           <ram:CityName>Musterstadt</ram:CityName>
           <ram:CountryID>DE</ram:CountryID>
         </ram:PostalTradeAddress>
+		<ram:URIUniversalCommunication>
+			<ram:URIID schemeID="EM">info@kunde.de</ram:URIID>
+		</ram:URIUniversalCommunication>
       </ram:BuyerTradeParty>
 	  <ram:AdditionalReferencedDocument>
           <ram:IssuerAssignedID>Abrechnung 2010</ram:IssuerAssignedID>
@@ -193,6 +202,11 @@ costs, losses or damages could normally have been foreseen.-->
           <ram:CountryID>DE</ram:CountryID>
         </ram:PostalTradeAddress>
     	</ram:ShipToTradeParty>
+		<ram:ActualDeliverySupplyChainEvent>
+        <ram:OccurrenceDateTime>
+          <udt:DateTimeString format="102">20231231</udt:DateTimeString>
+        </ram:OccurrenceDateTime>
+      </ram:ActualDeliverySupplyChainEvent>
     </ram:ApplicableHeaderTradeDelivery>
     <ram:ApplicableHeaderTradeSettlement>
       <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
@@ -216,15 +230,15 @@ costs, losses or damages could normally have been foreseen.-->
       </ram:ApplicableTradeTax>
             <ram:BillingSpecifiedPeriod>
       	<ram:StartDateTime>
-      		<udt:DateTimeString format="102">20100101</udt:DateTimeString>
+      		<udt:DateTimeString format="102">20230101</udt:DateTimeString>
       	</ram:StartDateTime>
       	<ram:EndDateTime>
-      		<udt:DateTimeString format="102">20101231</udt:DateTimeString>
+      		<udt:DateTimeString format="102">20231231</udt:DateTimeString>
       	</ram:EndDateTime>
       </ram:BillingSpecifiedPeriod>
 	    <ram:SpecifiedTradePaymentTerms>
         <ram:DueDateDateTime>
-          <udt:DateTimeString format="102">20180404</udt:DateTimeString>
+          <udt:DateTimeString format="102">20241215</udt:DateTimeString>
         </ram:DueDateDateTime>
       </ram:SpecifiedTradePaymentTerms>
       <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
