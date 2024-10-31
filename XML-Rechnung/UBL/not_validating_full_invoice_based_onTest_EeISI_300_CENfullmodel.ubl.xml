@@ -259,13 +259,13 @@
       <cbc:TaxAmount currencyID="NOK">46</cbc:TaxAmount>
     </cac:TaxTotal>
     <cac:LegalMonetaryTotal>
-      <cbc:LineExtensionAmount currencyID="EUR">2000</cbc:LineExtensionAmount>
-      <cbc:TaxExclusiveAmount currencyID="EUR">2000</cbc:TaxExclusiveAmount>
-      <cbc:TaxInclusiveAmount currencyID="EUR">2050</cbc:TaxInclusiveAmount>
+      <cbc:LineExtensionAmount currencyID="EUR">200</cbc:LineExtensionAmount>
+      <cbc:TaxExclusiveAmount currencyID="EUR">200</cbc:TaxExclusiveAmount>
+      <cbc:TaxInclusiveAmount currencyID="EUR">205</cbc:TaxInclusiveAmount>
       <cbc:AllowanceTotalAmount currencyID="EUR">10</cbc:AllowanceTotalAmount>
       <cbc:ChargeTotalAmount currencyID="EUR">10</cbc:ChargeTotalAmount>
       <cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
-      <cbc:PayableAmount currencyID="EUR">2050</cbc:PayableAmount>
+      <cbc:PayableAmount currencyID="EUR">205</cbc:PayableAmount>
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
       <cbc:ID>1a</cbc:ID>
