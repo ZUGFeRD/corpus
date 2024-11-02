@@ -8,7 +8,8 @@ As german businesses have to be able to accept/read/understand domestic B2B e-in
 [background]( https://medium.com/@jochen.staerk/why-and-how-germany-bans-b2b-paper-invoices-a4c7977f314a))
 and samples are nowhere in sight the [XML-Rechnung](https://github.com/ZUGFeRD/corpus/tree/master/XML-Rechnung)-Folder is an attempt to 
 demonstrate how temporary, makeshift, inofficial samples 
-can be created based on a part of AWV's [ZUGFeRD Infopaket](https://www.ferd-net.de/ZUGFeRD-Download) using [Mustang](https://www.mustangproject.org/?mtm_campaign=b2bsamples) until someone feels responsible to release official samples. 
+can be created based on a part of AWV's [ZUGFeRD Infopaket](https://www.ferd-net.de/ZUGFeRD-Download) using [Mustang](https://www.mustangproject.org/?mtm_campaign=b2bsamples) until someone feels responsible to release official samples.
+Please note that the CEN has [UBL](https://github.com/ConnectingEurope/eInvoicing-EN16931/tree/master/ubl/examples) and [CII](https://github.com/ConnectingEurope/eInvoicing-EN16931/tree/master/cii/examples) examples.
 
 
 ## Background
