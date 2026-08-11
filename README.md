@@ -21,8 +21,8 @@ I.e., we create three directories, FX for Factur-X, CII and UBL.
 As a company you can decide which format to send but you will have to accept all three,
 
 ## 1. PDF
-Get the ZUGFeRD 2.2 samples by downloading the
-[Infopaket](https://www.ferd-net.de/standards/zugferd-2.2/index.html?changelang=4)
+Get the ZUGFeRD samples by downloading the
+[Most recent release](https://www.ferd-net.de/faqs/zugferd-beispielrechnungen)
 
 We put the samples (Factur-X=PDF files) from the EN16931 and XRechnung reference profile 
 (they are EN16931 as well) in the FX folder. 
