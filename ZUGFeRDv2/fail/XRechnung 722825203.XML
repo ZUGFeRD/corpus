@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+<rsm:ExchangedDocumentContext>
+<ram:BusinessProcessSpecifiedDocumentContextParameter>
+<ram:ID>nil:fit:uwmtzo.sg:2480:ernso:ozbbmkj:97:0.1</ram:ID>
+</ram:BusinessProcessSpecifiedDocumentContextParameter>
+<ram:GuidelineSpecifiedDocumentContextParameter>
+<ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</ram:ID>
+</ram:GuidelineSpecifiedDocumentContextParameter>
+</rsm:ExchangedDocumentContext>
+<rsm:ExchangedDocument>
+<ram:ID>2693590190</ram:ID>
+<ram:TypeCode>380</ram:TypeCode>
+<ram:IssueDateTime>
+<udt:DateTimeString format="102">20261008</udt:DateTimeString>
+</ram:IssueDateTime>
+</rsm:ExchangedDocument>
+<rsm:SupplyChainTradeTransaction>
+<ram:IncludedSupplyChainTradeLineItem>
+<ram:AssociatedDocumentLineDocument>
+<ram:LineID>000001</ram:LineID>
+</ram:AssociatedDocumentLineDocument>
+<ram:SpecifiedTradeProduct>
+<ram:SellerAssignedID>547328005948027792</ram:SellerAssignedID>
+<ram:Name>XNM 5/28 j. PY GaJ-HtV att®</ram:Name>
+<ram:Description>SS B 328</ram:Description>
+</ram:SpecifiedTradeProduct>
+<ram:SpecifiedLineTradeAgreement>
+<ram:BuyerOrderReferencedDocument>
+<ram:LineID>KEINE</ram:LineID>
+</ram:BuyerOrderReferencedDocument>
+<ram:GrossPriceProductTradePrice>
+<ram:ChargeAmount>17.50</ram:ChargeAmount>
+<ram:BasisQuantity unitCode="TNE">1.00</ram:BasisQuantity>
+</ram:GrossPriceProductTradePrice>
+<ram:NetPriceProductTradePrice>
+<ram:ChargeAmount>17.50</ram:ChargeAmount>
+<ram:BasisQuantity unitCode="TNE">1.00</ram:BasisQuantity>
+</ram:NetPriceProductTradePrice>
+</ram:SpecifiedLineTradeAgreement>
+<ram:SpecifiedLineTradeDelivery>
+<ram:BilledQuantity unitCode="TNE">26.120</ram:BilledQuantity>
+<ram:DeliveryNoteReferencedDocument>
+<ram:IssuerAssignedID>U84905684</ram:IssuerAssignedID>
+<ram:LineID>0000000001</ram:LineID>
+</ram:DeliveryNoteReferencedDocument>
+</ram:SpecifiedLineTradeDelivery>
+<ram:SpecifiedLineTradeSettlement>
+<ram:ApplicableTradeTax>
+<ram:TypeCode>VAT</ram:TypeCode>
+<ram:CategoryCode>S</ram:CategoryCode>
+<ram:RateApplicablePercent>19.00</ram:RateApplicablePercent>
+</ram:ApplicableTradeTax>
+<ram:SpecifiedTradeSettlementLineMonetarySummation>
+<ram:LineTotalAmount>457.10</ram:LineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation>
+</ram:SpecifiedLineTradeSettlement>
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem>
+<ram:AssociatedDocumentLineDocument>
+<ram:LineID>000002</ram:LineID>
+</ram:AssociatedDocumentLineDocument>
+<ram:SpecifiedTradeProduct>
+<ram:SellerAssignedID>547328005948027792</ram:SellerAssignedID>
+<ram:Name>XNM 5/28 j. PY GaJ-HtV att®</ram:Name>
+<ram:Description>XR ML 502</ram:Description>
+</ram:SpecifiedTradeProduct>
+<ram:SpecifiedLineTradeAgreement>
+<ram:BuyerOrderReferencedDocument>
+<ram:LineID>KEINE</ram:LineID>
+</ram:BuyerOrderReferencedDocument>
+<ram:GrossPriceProductTradePrice>
+<ram:ChargeAmount>17.50</ram:ChargeAmount>
+<ram:BasisQuantity unitCode="TNE">1.00</ram:BasisQuantity>
+</ram:GrossPriceProductTradePrice>
+<ram:NetPriceProductTradePrice>
+<ram:ChargeAmount>17.50</ram:ChargeAmount>
+<ram:BasisQuantity unitCode="TNE">1.00</ram:BasisQuantity>
+</ram:NetPriceProductTradePrice>
+</ram:SpecifiedLineTradeAgreement>
+<ram:SpecifiedLineTradeDelivery>
+<ram:BilledQuantity unitCode="TNE">26.100</ram:BilledQuantity>
+<ram:DeliveryNoteReferencedDocument>
+<ram:IssuerAssignedID>I94419381</ram:IssuerAssignedID>
+<ram:LineID>0000000001</ram:LineID>
+</ram:DeliveryNoteReferencedDocument>
+</ram:SpecifiedLineTradeDelivery>
+<ram:SpecifiedLineTradeSettlement>
+<ram:ApplicableTradeTax>
+<ram:TypeCode>VAT</ram:TypeCode>
+<ram:CategoryCode>S</ram:CategoryCode>
+<ram:RateApplicablePercent>19.00</ram:RateApplicablePercent>
+</ram:ApplicableTradeTax>
+<ram:SpecifiedTradeSettlementLineMonetarySummation>
+<ram:LineTotalAmount>456.75</ram:LineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation>
+</ram:SpecifiedLineTradeSettlement>
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:ApplicableHeaderTradeAgreement>
+<ram:BuyerReference>QAOGP</ram:BuyerReference>
+<ram:SellerTradeParty>
+<ram:Name>YSD Nrzeygsk-Qxajdosrc- Glnvsnfjdxba vfQ</ram:Name>
+<ram:DefinedTradeContact>
+<ram:PersonName>WJN Irdfcbch-Ffremvtzp-Rhefyyxqotcl</ram:PersonName>
+<ram:TelephoneUniversalCommunication>
+<ram:CompleteNumber>+34016897870</ram:CompleteNumber>
+</ram:TelephoneUniversalCommunication>
+<ram:EmailURIUniversalCommunication>
+<ram:URIID>tosdycledfzg@gly-unkx.de</ram:URIID>
+</ram:EmailURIUniversalCommunication>
+</ram:DefinedTradeContact>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>81285</ram:PostcodeCode>
+<ram:LineOne>Kcuaazjfgrcßp 18</ram:LineOne>
+<ram:CityName>Dkas</ram:CityName>
+<ram:CountryID>DE</ram:CountryID>
+</ram:PostalTradeAddress>
+<ram:URIUniversalCommunication>
+<ram:URIID schemeID="EM">dpfy@jhg-cmep.de</ram:URIID>
+</ram:URIUniversalCommunication>
+<ram:SpecifiedTaxRegistration>
+<ram:ID schemeID="VA">DE404666065</ram:ID>
+</ram:SpecifiedTaxRegistration>
+</ram:SellerTradeParty>
+<ram:BuyerTradeParty>
+<ram:ID>0008774573</ram:ID>
+<ram:Name>Zgrlnüw Unhbkqrjcipqat PvhV Kfolvqdcq</ram:Name>
+<ram:SpecifiedLegalOrganization>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>15558</ram:PostcodeCode>
+<ram:LineOne>Vfzlvl-Tinod-Yfwcüs 65 J</ram:LineOne>
+<ram:CityName>Wkkzstv am Bkspyx</ram:CityName>
+<ram:CountryID>DE</ram:CountryID>
+</ram:PostalTradeAddress>
+</ram:SpecifiedLegalOrganization>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>15558</ram:PostcodeCode>
+<ram:LineOne>Vfzlvl-Tinod-Yfwcüs 65 J</ram:LineOne>
+<ram:CityName>Wkkzstv am Bkspyx</ram:CityName>
+<ram:CountryID>DE</ram:CountryID>
+</ram:PostalTradeAddress>
+<ram:URIUniversalCommunication>
+<ram:URIID schemeID="EM">tcfrskntd@pzxqifeq.de</ram:URIID>
+</ram:URIUniversalCommunication>
+<ram:SpecifiedTaxRegistration>
+<ram:ID schemeID="VA">DE947437657</ram:ID>
+</ram:SpecifiedTaxRegistration>
+</ram:BuyerTradeParty>
+<ram:SellerTaxRepresentativeTradeParty>
+<ram:Name>YSD Nrzeygsk-Qxajdosrc- Glnvsnfjdxba vfQ</ram:Name>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>81285</ram:PostcodeCode>
+<ram:LineOne>Kcuaazjfgrcßp 18</ram:LineOne>
+<ram:CityName>Dkas</ram:CityName>
+<ram:CountryID>DE</ram:CountryID>
+</ram:PostalTradeAddress>
+<ram:SpecifiedTaxRegistration>
+<ram:ID schemeID="VA">DE404666065</ram:ID>
+</ram:SpecifiedTaxRegistration>
+</ram:SellerTaxRepresentativeTradeParty>
+<ram:BuyerOrderReferencedDocument>
+<ram:IssuerAssignedID>QAOGP</ram:IssuerAssignedID>
+</ram:BuyerOrderReferencedDocument>
+<ram:SpecifiedProcuringProject>
+<ram:ID>-</ram:ID>
+<ram:Name>Bxfum, Loipdcxs Jegjhtz Sjuawjirdh Kxkkkiklh, Xtdmäwkbwßcnx</ram:Name>
+</ram:SpecifiedProcuringProject>
+</ram:ApplicableHeaderTradeAgreement>
+<ram:ApplicableHeaderTradeDelivery>
+<ram:ShipToTradeParty>
+<ram:Name>Kqpbh, Ohaiukdg Opuojpt</ram:Name>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>44152</ram:PostcodeCode>
+<ram:LineOne>Ktzfsjneny Jyouganmg, Ejcvöptwzöggx</ram:LineOne>
+<ram:CityName>Yovtw</ram:CityName>
+<ram:CountryID>DE</ram:CountryID>
+</ram:PostalTradeAddress>
+</ram:ShipToTradeParty>
+<ram:ActualDeliverySupplyChainEvent>
+<ram:OccurrenceDateTime>
+<udt:DateTimeString format="102">20261005</udt:DateTimeString>
+</ram:OccurrenceDateTime>
+</ram:ActualDeliverySupplyChainEvent>
+</ram:ApplicableHeaderTradeDelivery>
+<ram:ApplicableHeaderTradeSettlement>
+<ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
+<ram:PayeeTradeParty>
+<ram:Name>Zgrlnüw Unhbkqrjcipqat PvhV Kfolvqdcq</ram:Name>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>15558</ram:PostcodeCode>
+<ram:LineOne>Vfzlvl-Tinod-Yfwcüs 65 J</ram:LineOne>
+<ram:CityName>Wkkzstv am Bkspyx</ram:CityName>
+<ram:CountryID>DE</ram:CountryID>
+</ram:PostalTradeAddress>
+</ram:PayeeTradeParty>
+<ram:SpecifiedTradeSettlementPaymentMeans>
+<ram:TypeCode>58</ram:TypeCode>
+<ram:PayeePartyCreditorFinancialAccount>
+<ram:IBANID>DE26 3868 8407 0232 0824 50</ram:IBANID>
+</ram:PayeePartyCreditorFinancialAccount>
+<ram:PayeeSpecifiedCreditorFinancialInstitution>
+<ram:BICID>BOLHDEDESZU</ram:BICID>
+</ram:PayeeSpecifiedCreditorFinancialInstitution>
+</ram:SpecifiedTradeSettlementPaymentMeans>
+<ram:ApplicableTradeTax>
+<ram:CalculatedAmount>173.63</ram:CalculatedAmount>
+<ram:TypeCode>VAT</ram:TypeCode>
+<ram:BasisAmount>913.85</ram:BasisAmount>
+<ram:CategoryCode>S</ram:CategoryCode>
+<ram:RateApplicablePercent>19.00</ram:RateApplicablePercent>
+</ram:ApplicableTradeTax>
+<ram:SpecifiedTradePaymentTerms>
+<ram:Description>#PZYKMU#TNIW=96#IQITDIB=6.71#
+</ram:Description>
+</ram:SpecifiedTradePaymentTerms>
+<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+<ram:LineTotalAmount>913.85</ram:LineTotalAmount>
+<ram:TaxBasisTotalAmount>913.85</ram:TaxBasisTotalAmount>
+<ram:TaxTotalAmount currencyID="EUR">173.63</ram:TaxTotalAmount>
+<ram:GrandTotalAmount>1087.48</ram:GrandTotalAmount>
+<ram:DuePayableAmount>1087.48</ram:DuePayableAmount>
+</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+</ram:ApplicableHeaderTradeSettlement>
+</rsm:SupplyChainTradeTransaction>
+</rsm:CrossIndustryInvoice>
